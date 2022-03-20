@@ -9,6 +9,6 @@ If you want to contribute, please refer to the [contributing guidelines](./CONTR
 - [Info](doc/Info.md)
 - [Cypress tests](doc/Cypress.md)
 # sharko-frontend
-
+- nvm use 12
 - yarn
 - yarn dev

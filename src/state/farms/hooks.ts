@@ -13,6 +13,7 @@ import {
   farmSelector,
   farmFromLpSymbolSelector,
   priceCakeFromPidSelector,
+  priceSeaFromPidSelector,
   makeBusdPriceFromPidSelector,
   makeUserFarmFromPidSelector,
   makeLpTokenPriceFromLpSymbolSelector,
@@ -88,4 +89,7 @@ export const useLpTokenPrice = (symbol: string) => {
  */
 export const usePriceCakeBusd = (): BigNumber => {
   return useSelector(priceCakeFromPidSelector)
+}
+export const usePriceSeaBusd = (): BigNumber => {
+  return useSelector(priceSeaFromPidSelector)
 }

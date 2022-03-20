@@ -12,7 +12,7 @@ import {
   MoreIcon,
 } from '@pancakeswap/uikit'
 import { ContextApi } from 'contexts/Localization/types'
-import { nftsBaseUrl } from 'views/Nft/market/constants'
+/* import { nftsBaseUrl } from 'views/Nft/market/constants'
 
 const perpetualLangs = { en: 'en', 'zh-cn': 'zh-CN', ko: 'ko' }
 const perpLangMap = (code: string) => {
@@ -20,7 +20,7 @@ const perpLangMap = (code: string) => {
     return perpetualLangs[code]
   }
   return 'en'
-}
+} */
 
 export type ConfigMenuItemsType = MenuItemsType & { hideSubNav?: boolean }
 
@@ -35,20 +35,20 @@ const config: (t: ContextApi['t'], code: string) => ConfigMenuItemsType[] = (t, 
       {
         label: t('Swap'),
         href: '/swap',
-      },/* 
+      } /* 
       {
         label: t('Limit'),
         href: '/limit-orders',
-      }, */
+      }, */,
       {
         label: t('Liquidity'),
         href: '/liquidity',
-      },/* 
+      } /* 
       {
         label: t('Perpetual'),
         href: `https://perp.pancakeswap.finance/${perpLangMap(code)}/futures/BTCUSDT`,
         type: DropdownMenuItemType.EXTERNAL_LINK,
-      }, */
+      }, */,
     ],
   },
   {
@@ -69,13 +69,13 @@ const config: (t: ContextApi['t'], code: string) => ConfigMenuItemsType[] = (t, 
   },
   {
     label: t('Win'),
-    href: 'https://prize.sharknado.io',
+    href: 'https://play.sharknado.io',
     icon: TrophyIcon,
     fillIcon: TrophyFillIcon,
     items: [
       {
-      label: t('Prize Pool'),
-      href: 'https://prize.sharknado.io',
+        label: t('Prize Pool'),
+        href: 'https://play.sharknado.io',
       },
       /* 
       {
@@ -121,14 +121,14 @@ const config: (t: ContextApi['t'], code: string) => ConfigMenuItemsType[] = (t, 
       {
         label: t('SHARKO Analytics'),
         href: '#',
-      },/* 
+      } /* 
       {
         label: t('IFO'),
         href: '/ifo',
-      }, */
+      }, */,
       {
         label: t('Voting'),
-        href: '/voting',
+        href: 'https://vote.sharknado.io',
       },
       {
         type: DropdownMenuItemType.DIVIDER,

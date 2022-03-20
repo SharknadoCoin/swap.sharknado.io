@@ -39,6 +39,7 @@ const deserializeFarm = (farm: SerializedFarm): DeserializedFarm => {
 }
 
 const selectCakeFarm = (state: State) => state.farms.data.find((f) => f.pid === 251)
+const selectSeaFarm = (state: State) => state.farms.data.find((f) => f.pid === 252)
 const selectFarmByKey = (key: string, value: string | number) => (state: State) =>
   state.farms.data.find((f) => f[key] === value)
 
@@ -67,6 +68,11 @@ export const priceCakeFromPidSelector = createSelector([selectCakeFarm], (cakeBn
   const deserializedCakeBnbFarm = deserializeFarm(cakeBnbFarm)
   const cakePriceBusdAsString = deserializedCakeBnbFarm.tokenPriceBusd
   return new BigNumber(cakePriceBusdAsString)
+})
+export const priceSeaFromPidSelector = createSelector([selectSeaFarm], (seaBnbFarm) => {
+  const deserializedSeaBnbFarm = deserializeFarm(seaBnbFarm)
+  const seaPriceBusdAsString = deserializedSeaBnbFarm.tokenPriceBusd
+  return new BigNumber(seaPriceBusdAsString)
 })
 
 export const farmFromLpSymbolSelector = (lpSymbol: string) =>

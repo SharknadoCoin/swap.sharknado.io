@@ -3,23 +3,24 @@ import { useRouter } from 'next/router'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import { Menu as UikitMenu } from '@pancakeswap/uikit'
 import { languageList } from 'config/localization/languages'
-import { useTranslation } from 'contexts/Localization'
-import PhishingWarningBanner from 'components/PhishingWarningBanner'
-import useTheme from 'hooks/useTheme'
-import { usePriceCakeBusd } from 'state/farms/hooks'
-import { usePhishingBannerManager } from 'state/user/hooks'
+import { useTranslation } from 'contexts/Localization' /* 
+import PhishingWarningBanner from 'components/PhishingWarningBanner' */
+import useTheme from 'hooks/useTheme' /* 
+import { usePriceCakeBusd, usePriceSeaBusd } from 'state/farms/hooks'
+import { usePhishingBannerManager } from 'state/user/hooks' */
 import UserMenu from './UserMenu'
 import { useMenuItems } from './hooks/useMenuItems'
 import GlobalSettings from './GlobalSettings'
-import { getActiveMenuItem, getActiveSubMenuItem } from './utils'
-import { footerLinks } from './config/footerConfig'
+import { getActiveMenuItem, getActiveSubMenuItem } from './utils' /* 
+import { footerLinks } from './config/footerConfig' */
 
 const Menu = (props) => {
-  const { isDark, setTheme } = useTheme()
+  const { isDark, setTheme } = useTheme() /* 
   const cakePriceUsd = usePriceCakeBusd()
+  const seaPriceUsd = usePriceSeaBusd() */
   const { currentLanguage, setLanguage, t } = useTranslation()
-  const { pathname } = useRouter()
-  const [showPhishingWarningBanner] = usePhishingBannerManager()
+  const { pathname } = useRouter() /* 
+  const [showPhishingWarningBanner] = usePhishingBannerManager() */
 
   const menuItems = useMenuItems()
 
@@ -27,7 +28,7 @@ const Menu = (props) => {
   const activeSubMenuItem = getActiveSubMenuItem({ menuItem: activeMenuItem, pathname })
 
   const toggleTheme = useMemo(() => {
-    return () => setTheme(isDark ? 'light' : 'dark')
+    return () => setTheme(isDark)
   }, [setTheme, isDark])
 
   return (
@@ -37,19 +38,19 @@ const Menu = (props) => {
       }}
       userMenu={<UserMenu />}
       globalMenu={<GlobalSettings />}
-      banner={showPhishingWarningBanner && typeof window !== 'undefined' && <PhishingWarningBanner />}
+      /* banner={showPhishingWarningBanner && typeof window !== 'undefined' && <PhishingWarningBanner />} */
       isDark={isDark}
       toggleTheme={toggleTheme}
       currentLang={currentLanguage.code}
       langs={languageList}
       setLang={setLanguage}
-      cakePriceUsd={cakePriceUsd.toNumber()}
+      /* cakePriceUsd={cakePriceUsd.toNumber()} */
       links={menuItems}
       subLinks={activeMenuItem?.hideSubNav ? [] : activeMenuItem?.items}
-      footerLinks={footerLinks(t)}
+      /* footerLinks={footerLinks(t)} */
       activeItem={activeMenuItem?.href}
       activeSubItem={activeSubMenuItem?.href}
-      buyCakeLabel={t('Buy SHARKO')}
+      /* buyCakeLabel={t('Buy SHARKO')} */
       {...props}
     />
   )

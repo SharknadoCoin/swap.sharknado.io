@@ -147,7 +147,7 @@ const config: (t: ContextApi['t'], code: string) => ConfigMenuItemsType[] = (t, 
       },
       {
         label: t('Docs'),
-        href: 'https://docs.sharkando.io',
+        href: 'https://docs.sharknado.io',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       },
     ],

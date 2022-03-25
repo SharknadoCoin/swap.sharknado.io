@@ -48,23 +48,27 @@ function MyApp(props: AppProps) {
   return (
     <>
       <Head>
+        <meta name="google-site-verification" content="kxsFDv1ONhEqOhyNWD67kgCgTEJkAReaH6WaK-_Guvo" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=5, minimum-scale=1, viewport-fit=cover"
         />
         <meta
           name="description"
-          content="Cheaper and faster than Uniswap? Discover PancakeSwap, the leading DEX on BNB Smart Chain (BSC) with the best farms in DeFi and a lottery for CAKE."
+          content="A new way for players to explore Game-Fi experiences. Stake, Earn, Play, Win, Vote and more..."
         />
-        <meta name="theme-color" content="#1FC7D4" />
-        <meta name="twitter:image" content="https://pancakeswap.finance/images/hero.png" />
+        <meta name="theme-color" content="#F0B90B" />
+        <meta name="twitter:image" content="logo.png" /> {/* #todo */}
         <meta
           name="twitter:description"
-          content="The most popular AMM on BSC! Earn CAKE through yield farming or win it in the Lottery, then stake it in Syrup Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by PancakeSwap), NFTs, and more, on a platform you can trust."
+          content="Built for the Starsharks community from the community. Hold SHARKO tokens to earn $SEA, win Sharks NFT and more..."
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="🥞 PancakeSwap - A next evolution DeFi exchange on BNB Smart Chain (BSC)" />
-        <title>PancakeSwap</title>
+        <meta
+          name="twitter:title"
+          content="Sharknado - A next evolution Community-DAO token on BNB Smart Chain (BSC)"
+        />
+        <title>Sharknado</title>
       </Head>
       <Providers store={store}>
         <Blocklist>

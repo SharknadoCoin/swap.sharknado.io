@@ -667,7 +667,7 @@ exports[`renders correctly 1`] = `
 }
 
 .c67 {
-  border-bottom: 1px solid #383241;
+  border-bottom: 0px solid transparent;
 }
 
 .c62 {

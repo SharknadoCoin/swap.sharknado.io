@@ -33,75 +33,75 @@ export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
   switch (basePath) {
     case '/':
       return {
-        title: `${t('Home')} | ${t('PancakeSwap')}`,
+        title: `${t('Home')} | ${t('Sharknado Swap')}`,
       }
     case '/swap':
       return {
-        title: `${t('Exchange')} | ${t('PancakeSwap')}`,
+        title: `${t('Exchange')} | ${t('Sharknado Swap')}`,
       }
     case '/add':
       return {
-        title: `${t('Add Liquidity')} | ${t('PancakeSwap')}`,
+        title: `${t('Add Liquidity')} | ${t('Sharknado Swap')}`,
       }
     case '/remove':
       return {
-        title: `${t('Remove Liquidity')} | ${t('PancakeSwap')}`,
+        title: `${t('Remove Liquidity')} | ${t('Sharknado Swap')}`,
       }
     case '/liquidity':
       return {
-        title: `${t('Liquidity')} | ${t('PancakeSwap')}`,
+        title: `${t('Liquidity')} | ${t('Sharknado Swap')}`,
       }
     case '/find':
       return {
-        title: `${t('Import Pool')} | ${t('PancakeSwap')}`,
+        title: `${t('Import Pool')} | ${t('Sharknado Swap')}`,
       }
     case '/competition':
       return {
-        title: `${t('Trading Battle')} | ${t('PancakeSwap')}`,
+        title: `${t('Trading Battle')} | ${t('Sharknado Swap')}`,
       }
     case '/prediction':
       return {
-        title: `${t('Prediction')} | ${t('PancakeSwap')}`,
+        title: `${t('Prediction')} | ${t('Sharknado Swap')}`,
       }
     case '/prediction/leaderboard':
       return {
-        title: `${t('Leaderboard')} | ${t('PancakeSwap')}`,
+        title: `${t('Leaderboard')} | ${t('Sharknado Swap')}`,
       }
     case '/farms':
       return {
-        title: `${t('Farms')} | ${t('PancakeSwap')}`,
+        title: `${t('Farms')} | ${t('Sharknado Swap')}`,
       }
     case '/farms/auction':
       return {
-        title: `${t('Farm Auctions')} | ${t('PancakeSwap')}`,
+        title: `${t('Farm Auctions')} | ${t('Sharknado Swap')}`,
       }
     case '/pools':
       return {
-        title: `${t('Pools')} | ${t('PancakeSwap')}`,
+        title: `${t('Pools')} | ${t('Sharknado Swap')}`,
       }
     case '/lottery':
       return {
-        title: `${t('Lottery')} | ${t('PancakeSwap')}`,
+        title: `${t('Lottery')} | ${t('Sharknado Swap')}`,
       }
     case '/ifo':
       return {
-        title: `${t('Initial Farm Offering')} | ${t('PancakeSwap')}`,
+        title: `${t('Initial Farm Offering')} | ${t('Sharknado Swap')}`,
       }
     case '/teams':
       return {
-        title: `${t('Leaderboard')} | ${t('PancakeSwap')}`,
+        title: `${t('Leaderboard')} | ${t('Sharknado Swap')}`,
       }
     case '/voting':
       return {
-        title: `${t('Voting')} | ${t('PancakeSwap')}`,
+        title: `${t('Voting')} | ${t('Sharknado Swap')}`,
       }
     case '/voting/proposal':
       return {
-        title: `${t('Proposals')} | ${t('PancakeSwap')}`,
+        title: `${t('Proposals')} | ${t('Sharknado Swap')}`,
       }
     case '/voting/proposal/create':
       return {
-        title: `${t('Make a Proposal')} | ${t('PancakeSwap')}`,
+        title: `${t('Make a Proposal')} | ${t('Sharknado Swap')}`,
       }
     case '/info':
       return {

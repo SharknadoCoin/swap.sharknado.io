@@ -94,7 +94,7 @@ const config: (t: ContextApi['t'], code: string) => ConfigMenuItemsType[] = (t, 
   },
   {
     label: t('NFT'),
-    href: `#`,
+    href: `http://nft.sharknado.io`,
     icon: NftIcon,
     fillIcon: NftFillIcon,
     items: [

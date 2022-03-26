@@ -28,7 +28,7 @@ export const footerLinks: FooterLinkType[] = [
         href: "https://docs.pancakeswap.finance/contact-us/telegram",
       },
       {
-        label: "CAKE" /* #todo */,
+        label: "CAKE",
         href: "https://docs.pancakeswap.finance/tokenomics/cake",
       },
       {
@@ -112,7 +112,7 @@ export const socials = [
     href: "https://sharknadocoin.medium.com/",
   },
   {
-    label: "Medium",
+    label: "Docs",
     icon: InfoIcon,
     href: "https://docs.sharknado.io",
   },

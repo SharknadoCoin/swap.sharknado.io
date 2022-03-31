@@ -235,7 +235,7 @@ const Pools: React.FC = () => {
     <CardLayout>
       {chosenPools.map((pool) =>
         pool.vaultKey ? (
-          <CakeVaultCard key={pool.vaultKey} pool={pool} showStakedOnly={stakedOnly} />
+          <CakeVaultCard key={pool.vaultKey} pool={pool} showStakedOnly={pool} />
         ) : (
           <PoolCard key={pool.sousId} pool={pool} account={account} />
         ),
@@ -247,11 +247,11 @@ const Pools: React.FC = () => {
 
   return (
     <>
-      <PageHeader>
+      {/* <PageHeader>
         <Flex justifyContent="space-between" flexDirection={['column', null, null, 'row']}>
           <Flex flex="1" flexDirection="column" mr={['8px', 0]}>
             <Heading as="h1" scale="xxl" color="secondary" mb="24px">
-              {t('Syrup Pools')}
+              {t('SHARKO Pools')}
             </Heading>
             <Heading scale="md" color="text">
               {t('Just stake some tokens to earn.')}
@@ -265,7 +265,7 @@ const Pools: React.FC = () => {
             <BountyCard />
           </Flex>
         </Flex>
-      </PageHeader>
+      </PageHeader> */}
       <Page>
         <PoolControls>
           <PoolTabButtons
@@ -327,15 +327,6 @@ const Pools: React.FC = () => {
           </Flex>
         )}
         {viewMode === ViewMode.CARD ? cardLayout : tableLayout}
-        <div ref={observerRef} />
-        <Image
-          mx="auto"
-          mt="12px"
-          src="/images/decorations/3d-syrup-bunnies.png"
-          alt="Pancake illustration"
-          width={192}
-          height={184.5}
-        />
       </Page>
     </>
   )

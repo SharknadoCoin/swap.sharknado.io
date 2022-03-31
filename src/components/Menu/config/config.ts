@@ -26,7 +26,7 @@ export type ConfigMenuItemsType = MenuItemsType & { hideSubNav?: boolean }
 
 const config: (t: ContextApi['t'], code: string) => ConfigMenuItemsType[] = (t, code) => [
   {
-    label: t('Trade'),
+    label: t('Finance'),
     icon: SwapIcon,
     fillIcon: SwapFillIcon,
     href: '/swap',
@@ -50,7 +50,7 @@ const config: (t: ContextApi['t'], code: string) => ConfigMenuItemsType[] = (t, 
         type: DropdownMenuItemType.EXTERNAL_LINK,
       }, */,
     ],
-  },
+  } /* 
   {
     label: t('Earn'),
     href: '/farms',
@@ -66,13 +66,17 @@ const config: (t: ContextApi['t'], code: string) => ConfigMenuItemsType[] = (t, 
         href: '/pools',
       },
     ],
-  },
+  }, */,
   {
-    label: t('Win'),
-    href: 'https://play.sharknado.io',
+    label: t('Earn'),
+    href: '#',
     icon: TrophyIcon,
     fillIcon: TrophyFillIcon,
     items: [
+      {
+        label: t('Staking'),
+        href: '/pools',
+      },
       {
         label: t('Prize Pool'),
         href: 'https://play.sharknado.io',
@@ -94,7 +98,7 @@ const config: (t: ContextApi['t'], code: string) => ConfigMenuItemsType[] = (t, 
   },
   {
     label: t('NFT'),
-    href: `http://nft.sharknado.io`,
+    href: `https://starsharks.com/market`,
     icon: NftIcon,
     fillIcon: NftFillIcon,
     items: [
@@ -120,14 +124,14 @@ const config: (t: ContextApi['t'], code: string) => ConfigMenuItemsType[] = (t, 
     items: [
       {
         label: t('SHARKO Analytics'),
-        href: '#',
+        href: 'https://pancakeswap.finance/info/token/0x7e1d65ee360335fa119ee4b9708e47700efbfc58',
       } /* 
       {
         label: t('IFO'),
         href: '/ifo',
       }, */,
       {
-        label: t('Voting'),
+        label: t('DAO'),
         href: 'https://vote.sharknado.io',
       },
       {

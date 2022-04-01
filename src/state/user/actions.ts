@@ -13,7 +13,7 @@ export enum FarmStakedOnly {
 }
 
 export enum ViewMode {
-  TABLE = 'TABLE',
+  TABLE = 'CARD' /* #fix */,
   CARD = 'CARD',
 }
 

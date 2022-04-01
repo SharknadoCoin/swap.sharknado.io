@@ -30,14 +30,6 @@ export const mainnetTokens = defineTokens({
     'PancakeSwap Token',
     'https://pancakeswap.finance/',
   ),
-  sharko: new Token(
-    MAINNET,
-    '0x7E1d65ee360335Fa119EE4B9708e47700EFBFc58',
-    18,
-    'SHARKO',
-    'Sharknado Coin',
-    'https://sharknado.io/',
-  ),
   sea: new Token(
     MAINNET,
     '0x26193C7fa4354AE49eC53eA2cEBC513dc39A10aa',
@@ -45,6 +37,14 @@ export const mainnetTokens = defineTokens({
     'SEA',
     'StarShark SEA',
     'https://starsharks.com/',
+  ),
+  sharko: new Token(
+    MAINNET,
+    '0x7E1d65ee360335Fa119EE4B9708e47700EFBFc58',
+    18,
+    'SHARKO',
+    'Sharknado Coin',
+    'https://sharknado.io/',
   ),
   sss: new Token(
     MAINNET,

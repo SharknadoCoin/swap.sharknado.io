@@ -30,8 +30,9 @@ export const vaultPoolConfig = {
 } as const
 
 const pools: SerializedPoolConfig[] = [
+  /* 
   {
-    sousId: 0,
+    sousId: 1000,
     stakingToken: serializedTokens.cake,
     earningToken: serializedTokens.cake,
     contractAddress: {
@@ -43,9 +44,9 @@ const pools: SerializedPoolConfig[] = [
     tokenPerBlock: '10',
     sortOrder: 1,
     isFinished: false,
-  },
+  }, */
   {
-    sousId: 10000,
+    sousId: 0,
     stakingToken: serializedTokens.sharko,
     earningToken: serializedTokens.sea,
     contractAddress: {

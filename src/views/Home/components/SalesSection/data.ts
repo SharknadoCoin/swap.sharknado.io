@@ -52,12 +52,12 @@ export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
 export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
   headingText: t('CAKE makes our world go round.'),
   bodyText: t(
-    'CAKE token is at the heart of the PancakeSwap ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!',
+    'SHARKO token is at the heart of the Sharknado ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!',
   ),
   reverse: false,
   primaryButton: {
-    to: '/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
-    text: t('Buy CAKE'),
+    to: '/swap?outputCurrency=0x7e1d65ee360335fa119ee4b9708e47700efbfc58',
+    text: t('Buy SHARKO'),
     external: false,
   },
   secondaryButton: {

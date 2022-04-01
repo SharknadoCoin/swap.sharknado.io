@@ -56,11 +56,11 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         <>
           <Button
             as="a"
-            href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+            href="https://swap.sharknado.io/swap?outputCurrency=0x7e1d65ee360335fa119ee4b9708e47700efbfc58"
             target="_blank"
             width="100%"
           >
-            {t('Buy CAKE')}
+            {t('Buy SHARKO')}
           </Button>
         </>
       ),

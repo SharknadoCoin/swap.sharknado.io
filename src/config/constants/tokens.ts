@@ -2059,7 +2059,7 @@ export const mainnetTokens = defineTokens({
   ),
   sharkolp: new Token(
     MAINNET,
-    '0xB8F8812584B4441C529cc8a284907D4c5A04ba83',
+    '0x4FcB4716Bd4784eE72746f89f2425a16f8C76595',
     18,
     'SHARKO-LP',
     'Sharknado Coin',

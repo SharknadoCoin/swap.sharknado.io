@@ -2057,6 +2057,14 @@ export const mainnetTokens = defineTokens({
     'Green Metaverse Token',
     'https://www.stepn.com/',
   ),
+  sharkolp: new Token(
+    MAINNET,
+    '0x4FcB4716Bd4784eE72746f89f2425a16f8C76595',
+    18,
+    'SHARKO-LP',
+    'Sharknado Coin',
+    'https://sharknado.io/',
+  ),
   bsw: new Token(MAINNET, '0x965F527D9159dCe6288a2219DB51fc6Eef120dD1', 18, 'BSW', 'Biswap', 'https://biswap.org/'),
 } as const)
 
@@ -2101,6 +2109,24 @@ export const testnetTokens = defineTokens({
     'Bakeryswap Token',
     'https://www.bakeryswap.org/',
   ),
+  sharko: new Token(
+    TESTNET,
+    '0xD8d2651b2C8a2d94D9265E6cD56D6c80fADb2eB0',
+    18,
+    'SHARKO',
+    'Sharknado Coin',
+    'https://sharknado.io/',
+  ),
+  sharkolp: new Token(
+    TESTNET,
+    '0xFb7D4B2BB38323e796526b12e7EF64Fbc8A05719',
+    18,
+    'SHARKO-LP',
+    'Sharknado Coin',
+    'https://sharknado.io/',
+  ),
+  sea: new Token(TESTNET, '0xb4087EAca3e8c2BbfA6Be168A232369648aD76d3', 18, 'tSEA', 'Test SEA'),
+  sss: new Token(TESTNET, '0x7ef95a0FEE0Dd31b22626fA2e10Ee6A223F8a684', 18, 'tSEA', 'Test SSS'),
 } as const)
 
 const tokens = () => {

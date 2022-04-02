@@ -35,6 +35,22 @@
       "logoURI": "https://raw.githubusercontent.com/SharknadoCoin/bsc-contracts/master/sharknadotoken.png"
     },
     {
+      "name": "Sharknado Coin",
+      "symbol": "SHARKO",
+      "address": "0xD8d2651b2C8a2d94D9265E6cD56D6c80fADb2eB0",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SharknadoCoin/bsc-contracts/master/sharknadotoken.png"
+    },
+    {
+      "name": "PancakeSwap Token",
+      "symbol": "CAKE",
+      "address": "0x2f7682b64b88149Ba3250AEe32Db712964de5fA9",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.png"
+    },
+    {
       "name": "StarSharks SEA",
       "symbol": "SEA",
       "address": "0x26193C7fa4354AE49eC53eA2cEBC513dc39A10aa",

@@ -35,6 +35,22 @@
       "logoURI": "https://raw.githubusercontent.com/SharknadoCoin/bsc-contracts/master/sharknadotoken.png"
     },
     {
+      "name": "SHARKO Liquidity Token",
+      "symbol": "SHARKO-LP",
+      "address": "0xB8F8812584B4441C529cc8a284907D4c5A04ba83",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SharknadoCoin/bsc-contracts/master/goldsharko.png"
+    },
+    {
+      "name": "SHARKO Liquidity Token",
+      "symbol": "SHARKO-LP",
+      "address": "0x1529fD51D5299c8f47Fa3C6fd9e40c994a00e18E",
+      "chainId": 97,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SharknadoCoin/bsc-contracts/master/goldsharko.png"
+    },
+    {
       "name": "Sharknado Coin",
       "symbol": "SHARKO",
       "address": "0xD8d2651b2C8a2d94D9265E6cD56D6c80fADb2eB0",

@@ -50,7 +50,7 @@ export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
 })
 
 export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
-  headingText: t('CAKE makes our world go round.'),
+  headingText: t('SHARKO makes our world go round.'),
   bodyText: t(
     'SHARKO token is at the heart of the Sharknado ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!',
   ),
@@ -61,7 +61,7 @@ export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
     external: false,
   },
   secondaryButton: {
-    to: 'https://docs.pancakeswap.finance/tokenomics/cake',
+    to: 'https://docs.sharknado.io',
     text: t('Learn'),
     external: true,
   },

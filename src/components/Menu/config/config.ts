@@ -40,6 +40,10 @@ const config: (t: ContextApi['t'], code: string) => ConfigMenuItemsType[] = (t, 
         label: t('Limit'),
         href: '/limit-orders',
       }, */,
+      /* {
+        label: t('Zap'),
+        href: 'https://zap.sharknado.io',
+      }, */
       {
         label: t('Liquidity'),
         href: '/liquidity',
@@ -67,6 +71,13 @@ const config: (t: ContextApi['t'], code: string) => ConfigMenuItemsType[] = (t, 
       },
     ],
   }, */,
+  {
+    label: t('Zap'),
+    href: `https://zap.sharknado.io`,
+    icon: NftIcon,
+    fillIcon: NftFillIcon,
+    items: [],
+  },
   {
     label: t('Earn'),
     href: '#',

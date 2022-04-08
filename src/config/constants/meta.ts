@@ -5,7 +5,8 @@ export const DEFAULT_META: PageMeta = {
   title: 'Sharknado Coin (SHARKO)',
   description:
     'Built for the Starsharks community from the community. Hold SHARKO tokens to earn $SEA, win Sharks NFT & more...',
-  image: 'https://pancakeswap.finance/images/hero.png',
+  image:
+    'https://raw.githubusercontent.com/SharknadoCoin/sharknado-brand/main/icon/new/0x7E1d65ee360335Fa119EE4B9708e47700EFBFc58.png',
 }
 
 export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
@@ -105,38 +106,38 @@ export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
       }
     case '/info':
       return {
-        title: `${t('Overview')} | ${t('PancakeSwap Info & Analytics')}`,
-        description: 'View statistics for Pancakeswap exchanges.',
+        title: `${t('Overview')} | ${t('Sharknado Info & Analytics')}`,
+        description: 'View statistics for Sharknado exchanges.',
       }
     case '/info/pools':
       return {
-        title: `${t('Pools')} | ${t('PancakeSwap Info & Analytics')}`,
-        description: 'View statistics for Pancakeswap exchanges.',
+        title: `${t('Pools')} | ${t('Sharknado Info & Analytics')}`,
+        description: 'View statistics for Sharknado exchanges.',
       }
     case '/info/tokens':
       return {
-        title: `${t('Tokens')} | ${t('PancakeSwap Info & Analytics')}`,
-        description: 'View statistics for Pancakeswap exchanges.',
+        title: `${t('Tokens')} | ${t('Sharknado Info & Analytics')}`,
+        description: 'View statistics for Sharknado exchanges.',
       }
     case '/nfts':
       return {
-        title: `${t('Overview')} | ${t('PancakeSwap')}`,
+        title: `${t('Overview')} | ${t('Sharknado')}`,
       }
     case '/nfts/collections':
       return {
-        title: `${t('Collections')} | ${t('PancakeSwap')}`,
+        title: `${t('Collections')} | ${t('Sharknado')}`,
       }
     case '/nfts/activity':
       return {
-        title: `${t('Activity')} | ${t('PancakeSwap')}`,
+        title: `${t('Activity')} | ${t('Sharknado')}`,
       }
     case '/nfts/profile':
       return {
-        title: `${t('Profile')} | ${t('PancakeSwap')}`,
+        title: `${t('Profile')} | ${t('Sharknado')}`,
       }
     case '/pancake-squad':
       return {
-        title: `${t('Pancake Squad')} | ${t('PancakeSwap')}`,
+        title: `${t('Pancake Squad')} | ${t('Sharknado')}`,
       }
     default:
       return null

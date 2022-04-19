@@ -35,6 +35,10 @@ const config: (t: ContextApi['t'], code: string) => ConfigMenuItemsType[] = (t, 
       {
         label: t('Swap'),
         href: '/swap',
+      },
+      {
+        label: t('Zap'),
+        href: 'https://sale.sharknado.io/#/zap',
       } /* 
       {
         label: t('Limit'),
@@ -72,18 +76,15 @@ const config: (t: ContextApi['t'], code: string) => ConfigMenuItemsType[] = (t, 
     ],
   }, */,
   {
-    label: t('Zap'),
-    href: `https://zap.sharknado.io`,
-    icon: NftIcon,
-    fillIcon: NftFillIcon,
-    items: [],
-  },
-  {
     label: t('Earn'),
     href: '#',
     icon: TrophyIcon,
     fillIcon: TrophyFillIcon,
     items: [
+      {
+        label: t('Token Sale'),
+        href: 'https://sale.sharknado.io',
+      },
       {
         label: t('Staking'),
         href: '/pools',
